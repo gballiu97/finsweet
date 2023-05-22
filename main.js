@@ -1,18 +1,3 @@
-// function func1() {
-//   $(".faq-questions-first-flex").click(function () {
-//     $(".jtest").toggle(3000);
-//   });
-// }
-
-// $(document).ready(function () {
-//   $(".faq-questions-first-flex").on("click", function () {
-//     $(".jtest").toggle(1500);
-//   });
-
-//   $(".faq-questions-flex").on("click", function () {
-//     $(".faq-questions-flex").after("This is a test", "1234");
-//   });
-// });
 
 $(document).ready(function () {
   $(".accordion-header").on("click", function () {
@@ -29,20 +14,3 @@ $(document).ready(function () {
     nextArrow: $(".svg-arrow-right"),
   });
 });
-
-// $(document).ready(function () {
-//   $(".our-team").slick({
-//     dots: true,
-//     infinite: true,
-//     speed: 500,
-//     fade: true,
-//     cssEase: "linear",
-//   });
-// });
-
-// $(document).ready(function () {
-//   $(".portofolio-templates").isotope({
-//     itemSelector: ".isotope",
-//     layoutMode: "fitRows",
-//   });
-// });
